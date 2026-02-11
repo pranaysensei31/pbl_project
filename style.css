@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #3b82f6;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    background: linear-gradient(to right, #3b82f6, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    margin-top: 20px;
+    color: #aaa;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+/* Cards */
+
+.info-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+}
+
+.right-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Premium Glass Card */
+.card {
+    padding: 35px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 40px rgba(59,130,246,0.2);
+}
+
+/* Special Borders */
+
+.problem {
+    border: 1px solid rgba(59,130,246,0.4);
+}
+
+.literature {
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.research {
+    border: 1px solid rgba(168,85,247,0.5);
+}
+
+/* Typography */
+
+.card h2,
+.card h3 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+
+/* Methodology */
+
+.methodology {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.methodology h2 span {
+    color: #3b82f6;
+}
+
+.method-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.green button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #22c55e;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Results */
+
+.results {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.results span {
+    color: #3b82f6;
+}
+
+.result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.bars {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.old {
+    height: 150px;
+    background: #475569;
+}
+
+.new {
+    height: 250px;
+    background: #3b82f6;
+}
+
+.performance p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+/* Credits */
+
+.credits {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.credit-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    color: #666;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #020617;
+    padding: 20px 40px;
+}
